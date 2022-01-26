@@ -1,0 +1,52 @@
+#installing turtle module
+import turtle
+flag = turtle.Turtle()
+
+#first rectangle orange
+flag.begin_fill()
+flag.fillcolor('orange')
+flag.forward(80)
+flag.right(90)
+flag.forward(17)
+flag.right(90)
+flag.forward(80)
+flag.right(90)
+flag.forward(17)
+flag.right(90)
+flag.end_fill()
+
+#for second rectangle
+flag.right(90)
+flag.forward(34)
+flag.left(90)
+flag.forward(80)
+flag.left(90)
+flag.forward(17)
+flag.left(90)
+flag.forward(80)
+
+#for third green rectangle
+flag.begin_fill()
+flag.fillcolor("green")
+flag.left(90)
+flag.forward(34)
+flag.left(90)
+flag.forward(80)
+flag.left(90)
+flag.forward(17)
+flag.left(90)
+flag.forward(80)
+
+flag.end_fill()
+#pipe
+flag.left(90)
+flag.forward(150)
+
+#chakra
+flag.penup()
+flag.goto(30,-25)
+flag.pendown()
+flag.begin_fill()
+flag.fillcolor('blue')
+flag.circle(9)
+flag.end_fill()
